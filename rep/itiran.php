@@ -32,7 +32,7 @@ $rs=mysqli_query($db,$sql);
 <table border="1" width="800">
 <TR>
  <TD height="35" colspan="3" align="middle" bgcolor="#FFFFFF">
-  <center/><B><FONT color="#000099">一覧</FONT></B><br>
+  <center/><B><FONT color="#000099">一覧2</FONT></B><br>
 <a href='itiran.php'>TOP</a>|<a href='touroku.php'>新規</a>|<a href='kensaku.php'>検索2</a>
 </TD>
 </TR>
