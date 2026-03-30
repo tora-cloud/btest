@@ -26,11 +26,7 @@ $rs=mysqli_query($db,$sql);
 ?>
 <html>
 <head>
-<<<<<<< Updated upstream
-<title>一覧22</title>
-=======
-<title>一覧44</title>
->>>>>>> Stashed changes
+<title>一覧55</title>
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
 <table border="1" width="800">
