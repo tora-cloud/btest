@@ -11,7 +11,7 @@ $page=$_GET['page'];
 $tmpCnt=$_GET['cnt']-5;
 }
 ##$db = mysqli_connect("localhost","root","garuje");
-$db = mysqli_connect("127.0.0.1","root","garuje","msdb2");
+$db = mysqli_connect("localhost","root","garuje","msdb2");
 
 ##$dbcnt = "msdb1";
 ##$dbcnt = "msdb1";
@@ -26,18 +26,18 @@ $rs=mysqli_query($db,$sql);
 ?>
 <html>
 <head>
-<title>一覧2</title>
+<title>一覧</title>
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
 <table border="1" width="800">
 <TR>
  <TD height="35" colspan="3" align="middle" bgcolor="#FFFFFF">
   <center/><B><FONT color="#000099">一覧</FONT></B><br>
-<a href='itiran.php'>TOP</a>|<a href='touroku.php'>新規</a>|<a href='kensaku.php'>検索2</a>
+<a href='itiran.php'>TOP</a>|<a href='touroku.php'>新規</a>|<a href='kensaku.php'>検索</a>
 </TD>
 </TR>
 <tr bgcolor="#CCCCCC">
- <td width="20">ID</td><td width="400">タイトル</td><td>登録日時2</td>
+ <td width="20">ID</td><td width="400">タイトル</td><td>登録日時</td>
 </tr>
 <?php
 while($row=mysqli_fetch_array($rs)){
