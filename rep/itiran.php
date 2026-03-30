@@ -26,7 +26,7 @@ $rs=mysqli_query($db,$sql);
 ?>
 <html>
 <head>
-<title>一覧2</title>
+<title>一覧22</title>
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
 <table border="1" width="800">
